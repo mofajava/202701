@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🇯🇵 2027 北海道自由行｜完全旅遊執行手冊</title>
+<style>
+
+  :root {
+    --primary: #1a365d;
+    --accent: #c53030;
+    --accent2: #2b6cb0;
+    --success: #2f855a;
+    --warning-bg: #fffbeb;
+    --warning-border: #d69e2e;
+    --tip-bg: #ebf8ff;
+    --tip-border: #3182ce;
+    --bg: #f7fafc;
+    --section-bg: #ffffff;
+    --nav-bg: #1a365d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Noto Sans TC", "Helvetica Neue", Arial, "Microsoft JhengHei", sans-serif;
+    line-height: 1.6; color: #2d3748; background: var(--bg); padding-top: 60px;
+  }
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; background: var(--nav-bg);
+    z-index: 1000; padding: 0 20px; box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    overflow-x: auto; white-space: nowrap;
+  }
+  nav a {
+    display: inline-block; color: #e2e8f0; text-decoration: none;
+    padding: 16px 14px; font-size: 14px; font-weight: 600; transition: background .2s;
+  }
+  nav a:hover, nav a:focus { background: rgba(255,255,255,.15); }
+  nav a.overview { color: #f6e05e; }
+  .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+  section {
+    background: var(--section-bg); border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.08); margin-bottom: 40px; padding: 32px 28px;
+  }
+  h1 { font-size: 2rem; color: var(--primary); margin-bottom: 8px; border-bottom: 3px solid var(--accent); padding-bottom: 10px; }
+  h2 { font-size: 1.55rem; color: var(--primary); margin: 0 0 18px; padding-bottom: 8px; border-bottom: 2px solid #ddd; }
+  h3 { font-size: 1.2rem; color: #2c5282; margin: 24px 0 10px; }
+  h4 { font-size: 1.05rem; color: #4a5568; margin: 18px 0 8px; }
+  p { margin: 8px 0; }
+  ul, ol { margin: 6px 0 12px 24px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  blockquote {
+    background: #edf2f7; border-left: 4px solid var(--accent2);
+    padding: 12px 18px; margin: 12px 0; border-radius: 4px; font-size: .95rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .92rem; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; }
+  th { background: #edf2f7; font-weight: 700; color: var(--primary); }
+  tr:nth-child(even) { background: #fafafa; }
+  hr { border: none; border-top: 1px dashed #ccc; margin: 24px 0; }
+  pre {
+    background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 6px;
+    padding: 16px; overflow-x: auto; font-size: .88rem; line-height: 1.5;
+  }
+  code { font-family: "Source Code Pro", "Consolas", monospace; }
+  .warning { background: var(--warning-bg); border-left: 4px solid var(--warning-border); padding: 8px 14px; margin: 8px 0; border-radius: 4px; }
+  .tip { background: var(--tip-bg); border-left: 4px solid var(--tip-border); padding: 8px 14px; margin: 8px 0; border-radius: 4px; }
+  li.warning, li.tip { list-style: none; margin-left: -24px; padding: 8px 14px 8px 24px; }
+  .checklist { list-style: none; margin-left: 0; }
+  .checklist li { padding: 4px 0; }
+  input[type="checkbox"] { margin-right: 6px; }
+  .hero-meta {
+    background: linear-gradient(135deg, #ebf8ff 0%, #e6fffa 100%);
+    border: 1px solid #bee3f8; border-radius: 8px; padding: 16px 18px; margin: 16px 0;
+  }
+  @media (max-width: 700px) {
+    .container { padding: 10px; }
+    section { padding: 18px 14px; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+    nav a { padding: 14px 10px; font-size: 12px; }
+    table { font-size: .82rem; }
+    th, td { padding: 6px; }
+  }
+  @media print {
+    nav { display: none; }
+    body { padding-top: 0; }
+    section { box-shadow: none; page-break-inside: avoid; }
+  }
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="#overview" class="overview">📋 總覽</a>
+  <a href="#day0">D0</a>
+  <a href="#day1">D1</a>
+  <a href="#day2">D2</a>
+  <a href="#day3">D3</a>
+  <a href="#day4">D4</a>
+  <a href="#day5">D5</a>
+  <a href="#day6">D6</a>
+  <a href="#day7">D7</a>
+  <a href="#day8">D8</a>
+</nav>
+<div class="container">
+<section id="overview">
+<h1>🇯🇵 2027 北海道自由行｜總覽與行前準備手冊</h1>
+<blockquote><strong>旅行期間：</strong> 2027/01/01 (五) ～ 01/09 (六)｜共 9 天 8 夜<br><strong>路線：</strong> 函館 → 登別 → 札幌／小樽<br><strong>人數：</strong> 約 6～8 人（1/7 晚餐預計 8 人會合）<br><strong>季節重點：</strong> 雪景、溫泉、燈飾／夜景、防寒與路面防滑</blockquote>
+<hr>
+<h3>🗓️ 每日行程總覽</h3>
+<table><thead><tr>
+<th>日期</th><th>星期</th><th>行程摘要</th><th>住宿</th><th>連結</th>
+</tr></thead><tbody>
+<tr><td>Day 0｜01/01</td><td>五</td><td>✈️ IT236 桃園→函館落地 → 入住普樂美雅凱賓總統酒店</td><td>普樂美雅凱賓總統酒店（函館）</td><td>Day0</td></tr>
+<tr><td>Day 1｜01/02</td><td>六</td><td>函館一日遊（朝市／元町／五稜郭／夜景）</td><td>普樂美雅凱賓總統酒店（函館）</td><td>Day1</td></tr>
+<tr><td>Day 2｜01/03</td><td>日</td><td>函館退房 → 移動登別 → 溫泉放鬆</td><td>登別格蘭飯店</td><td>Day2</td></tr>
+<tr><td>Day 3｜01/04</td><td>一</td><td>登別退房 → 札幌入住 → 北大／白色戀人／狸小路</td><td>札幌中島公園普樂美雅酒店</td><td>Day3</td></tr>
+<tr><td>Day 4｜01/05</td><td>二</td><td>小樽一日遊（三角市場／水族館／運河遊船／天狗山）</td><td>札幌中島公園普樂美雅酒店</td><td>Day4</td></tr>
+<tr><td>Day 5｜01/06</td><td>三</td><td><strong>待規劃</strong>（彈性日／部分人滑雪備案）</td><td>札幌中島公園普樂美雅酒店</td><td>Day5</td></tr>
+<tr><td>Day 6｜01/07</td><td>四</td><td>北海道神宮 → 頭大佛 → 瀧野冰雪世界 → 大通公園 → 8 人晚餐</td><td>札幌中島公園普樂美雅酒店</td><td>Day6</td></tr>
+<tr><td>Day 7｜01/08</td><td>五</td><td><strong>待規劃</strong>（札幌自由活動／採買補貨日）</td><td>札幌中島公園普樂美雅酒店</td><td>Day7</td></tr>
+<tr><td>Day 8｜01/09</td><td>六</td><td>退房 → 新千歲機場 → ✈️ IT235 回程</td><td>—</td><td>Day8</td></tr>
+</tbody></table>
+<hr>
+<h3>🏨 住宿資訊</h3>
+<table><thead><tr>
+<th>期間</th><th>住宿</th><th>地點</th><th>晚數</th>
+</tr></thead><tbody>
+<tr><td>Day 0～1（2 晚）</td><td><strong>普樂美雅凱賓總統酒店</strong>（Premier Hotel -CABIN- President）</td><td>函館</td><td>2</td></tr>
+<tr><td>Day 2（1 晚）</td><td><strong>登別格蘭飯店</strong>（Noboribetsu Grand Hotel）</td><td>登別溫泉</td><td>1</td></tr>
+<tr><td>Day 3～7（5 晚）</td><td><strong>札幌中島公園普樂美雅酒店</strong>（Premier Hotel Nakajima Park Sapporo）</td><td>札幌中島公園</td><td>5</td></tr>
+</tbody></table>
+<p><strong>札幌飯店周邊：</strong></p>
+<ul>
+<li>近中島公園、狸小路／薄野商圈</li>
+<li>搭地下鐵南北線可往札幌站、大通站</li>
+<li>建議 Google Maps 收藏飯店位置與「札幌站」「大通站」「薄野站」</li>
+</ul>
+<hr>
+<h3>✈️ 航班資訊</h3>
+<table><thead><tr>
+<th></th><th>去程</th><th>回程</th>
+</tr></thead><tbody>
+<tr><td>航班</td><td><strong>IT236</strong>（台灣虎航）</td><td><strong>IT235</strong>（台灣虎航）</td></tr>
+<tr><td>日期</td><td>2027/01/01 (五)</td><td>2027/01/09 (六)</td></tr>
+<tr><td>路線</td><td>桃園 TPE → <strong>函館 HKD</strong></td><td><strong>新千歲 CTS</strong> → 桃園 TPE</td></tr>
+<tr><td>參考時刻</td><td>約 06:45 起飛／11:10 抵達（以實際機票為準）</td><td>約 11:55 起飛／15:35 抵達（以實際機票為準）</td></tr>
+<tr><td>航廈</td><td>桃園 T1</td><td>新千歲國際線 → 桃園 T1</td></tr>
+</tbody></table>
+<blockquote>時刻可能因冬季风雪調整，出發前 24～48 小時務必再確認虎航 APP／官網與機場交通。</blockquote>
+<hr>
+<h3>📌 行前絕對核心檢核表</h3>
+<h4>1. 證件類</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> <strong>護照</strong>（效期 6 個月以上）</li>
+<li><input type="checkbox"  disabled> <strong>Visit Japan Web (VJW)</strong>：入境審查 + 海關申報 QR Code <strong>截圖存手機相簿</strong>（離線備用）</li>
+<li><input type="checkbox"  disabled> 飯店訂房確認信／電子憑證截圖</li>
+</ul>
+<h4>2. 票券與預約</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 去程 IT236／回程 IT235 電子登機證／報到確認</li>
+<li><input type="checkbox"  disabled> 函館山纜車／夜景相關（若採線上票）</li>
+<li><input type="checkbox"  disabled> 小樽運河遊覽船（建議可現場或提前，依當日天候）</li>
+<li><input type="checkbox"  disabled> 天狗山纜車營業時間確認（冬季夜間）</li>
+<li><input type="checkbox"  disabled> 1/7 頭大佛／瀧野班次與營業確認</li>
+<li><input type="checkbox"  disabled> 1/7 晚上 8 人餐廳預約（成吉思汗／燒肉／湯咖哩）</li>
+</ul>
+<h4>3. 防寒與雪地裝備</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 羽絨／防風外套、保暖內層、圍巾、手套、毛帽</li>
+<li><input type="checkbox"  disabled> <strong>防滑鞋</strong>或鞋釘／冰爪（札幌、小樽、瀧野路面易結冰）</li>
+<li><input type="checkbox"  disabled> 暖暖包、潤唇膏、保濕乳液（北海道超乾）</li>
+<li><input type="checkbox"  disabled> 墨鏡（雪地反光）</li>
+</ul>
+<h4>4. 電子設備與交通卡</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 手機充滿電 + <strong>行動電源</strong>（必須手提上機，嚴禁託運）</li>
+<li><input type="checkbox"  disabled> Wi-Fi 分享器或 eSIM 設定完成</li>
+<li><input type="checkbox"  disabled> 下載 APP：<strong>Google Maps</strong>（離線地圖）、<strong>Splitwise</strong>（記帳）、<strong>NAVITIME</strong>／JR 東日本（查車）、<strong>GO</strong>（叫車）</li>
+<li><input type="checkbox"  disabled> <strong>交通 IC 卡</strong>（Suica／Pasmo／Kitaca）：建議每人預先加值 <strong>¥2,000 以上</strong></li>
+</ul>
+<h4>5. 購物與金錢</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 信用卡確認海外消費額度</li>
+<li><input type="checkbox"  disabled> 少量日圓現金（公車找零、鄉下景點）</li>
+<li><input type="checkbox"  disabled> 折疊旅行袋（回程裝戰利品）</li>
+<li><input type="checkbox"  disabled> 藥妝／白色戀人／ROYCE 採買清單</li>
+</ul>
+<hr>
+<h3>📅 核心預約／確認管理表</h3>
+<table><thead><tr>
+<th>項目</th><th>建議時程</th><th>適用日期</th><th>備註</th>
+</tr></thead><tbody>
+<tr><td>Visit Japan Web</td><td>出發前 1 週內完成</td><td>全程</td><td>QR 截圖離線保存</td></tr>
+<tr><td>飯店入住時間確認</td><td>出發前</td><td>Day 0／3</td><td>函館、札幌 check-in 時間</td></tr>
+<tr><td>小樽運河遊船</td><td>當日或前 1 日</td><td>Day 4</td><td>15:30 班需提前 15 分報到</td></tr>
+<tr><td>天狗山纜車</td><td>當日確認營業</td><td>Day 4</td><td>冬季夜間班次可能調整</td></tr>
+<tr><td>1/7 餐廳（8 人）</td><td>出發前 1～2 週</td><td>Day 6</td><td>薄野／大通周邊</td></tr>
+<tr><td>新千歲機場交通</td><td>出發前確認</td><td>Day 8</td><td>JR 快速機場號／巴士時刻</td></tr>
+<tr><td>回程報到時間</td><td>起飛前 1 日</td><td>Day 8</td><td>建議起飛前 2.5～3 小時到機場</td></tr>
+</tbody></table>
+<hr>
+<h3>🍽️ 每日餐飲總覽（草案）</h3>
+<table><thead><tr>
+<th>日期</th><th>早餐</th><th>午餐</th><th>晚餐</th>
+</tr></thead><tbody>
+<tr><td>Day 0</td><td>機場／機上</td><td>函館落地後（朝市或飯店周邊）</td><td>函館海鮮／塩ラーメン</td></tr>
+<tr><td>Day 1</td><td>函館朝市海鮮丼</td><td>元町／五稜郭周邊</td><td>夜景後市區餐／居酒屋</td></tr>
+<tr><td>Day 2</td><td>飯店／便利商店</td><td>移動途中或登別</td><td>登別飯店餐（溫泉旅館）</td></tr>
+<tr><td>Day 3</td><td>登別飯店／移動中</td><td>札幌前／路上</td><td>湯咖哩或成吉思汗</td></tr>
+<tr><td>Day 4</td><td>小樽三角市場海鮮丼</td><td>水族館後／堺町通輕食</td><td>成吉思汗或燒肉</td></tr>
+<tr><td>Day 5</td><td>待規劃</td><td>待規劃</td><td>待規劃</td></tr>
+<tr><td>Day 6</td><td>飯店／便利商店</td><td>瀧野園區餐廳</td><td>8 人會合大餐</td></tr>
+<tr><td>Day 7</td><td>待規劃</td><td>待規劃</td><td>待規劃</td></tr>
+<tr><td>Day 8</td><td>飯店／便利商店</td><td>機場餐</td><td>—</td></tr>
+</tbody></table>
+<hr>
+<h3>🚃 交通工具總覽</h3>
+<table><thead><tr>
+<th>日期</th><th>主要交通</th><th>路線重點</th>
+</tr></thead><tbody>
+<tr><td>Day 0</td><td>飛機 + 機場巴士／計程車</td><td>TPE → HKD → 函館市區飯店</td></tr>
+<tr><td>Day 1</td><td>路面電車／步行／纜車</td><td>函館市區＋函館山</td></tr>
+<tr><td>Day 2</td><td>JR／私鐵或巴士＋計程車</td><td>函館 → 登別溫泉</td></tr>
+<tr><td>Day 3</td><td>JR／巴士</td><td>登別 → 札幌；市區地下鐵／步行</td></tr>
+<tr><td>Day 4</td><td>JR 快速＋北海道中央巴士＋纜車</td><td>札幌 ↔ 小樽／水族館／天狗山</td></tr>
+<tr><td>Day 5</td><td>待規劃</td><td>—</td></tr>
+<tr><td>Day 6</td><td>地下鐵＋中央巴士［真102］</td><td>神宮 → 真駒內 → 頭大佛 → 瀧野 → 大通</td></tr>
+<tr><td>Day 7</td><td>待規劃</td><td>札幌市區</td></tr>
+<tr><td>Day 8</td><td>地下鐵／JR 機場號或巴士</td><td>札幌 → 新千歲 CTS</td></tr>
+</tbody></table>
+<hr>
+<h3>💰 費用概估（每人，不含機票住宿本體若已付清）</h3>
+<table><thead><tr>
+<th>類別</th><th>概估</th><th>備註</th>
+</tr></thead><tbody>
+<tr><td>當地交通</td><td>¥8,000～15,000</td><td>IC 卡、JR、巴士、纜車</td></tr>
+<tr><td>餐飲</td><td>¥20,000～35,000</td><td>海鮮丼、湯咖哩、燒肉</td></tr>
+<tr><td>門票／體驗</td><td>¥5,000～10,000</td><td>水族館、遊船、纜車、頭大佛</td></tr>
+<tr><td>溫泉／雜支</td><td>¥3,000～8,000</td><td>登別、暖暖包、洗衣</td></tr>
+<tr><td>購物</td><td>依個人</td><td>藥妝、白色戀人、ROYCE</td></tr>
+<tr><td><strong>當地現金流預估</strong></td><td><strong>約 ¥40,000～70,000</strong></td><td>約台幣 8,000～15,000（不含大額購物）</td></tr>
+</tbody></table>
+<hr>
+<h3>⚠️ 全程注意事項（北海道冬季）</h3>
+<h4>天氣與安全</h4>
+<ul>
+<li>路面結冰：出飯店慢走，階梯扶好；夜間狸小路／運河周邊尤甚</li>
+<li>暴風雪可能影響 JR／巴士／飛機：每天出門前看天氣與運行情報</li>
+<li>溫差大：室內極暖、室外極冷，採洋蔥式穿法</li>
+</ul>
+<h4>航空法規</h4>
+<ul>
+<li><strong>行動電源</strong> → 嚴禁託運，必須手提</li>
+<li><strong>液體 &gt; 100ml</strong> → 必須託運</li>
+<li>雪地裝備冰爪若屬尖銳物，確認航空公司規定</li>
+</ul>
+<h4>日本禮儀與實務</h4>
+<ul>
+<li>電車上不講電話、不大聲喧嘩</li>
+<li>溫泉：先洗淨再入湯、毛巾不下水、刺青規定依館方</li>
+<li>計程車門多為自動開關</li>
+<li>垃圾分類嚴格，路邊常無垃圾桶，自備小塑膠袋</li>
+</ul>
+<h4>團體交通（6 人實用）</h4>
+<ul>
+<li>地下鐵與中央巴士可刷 Suica／Pasmo／Kitaca</li>
+<li>頭大佛段若等公車過久：真駒內站可改 2 台計程車（約 ¥2,800／台、約 15 分）</li>
+</ul>
+<hr>
+<h3>📦 行李打包提醒</h3>
+<h4>必帶</h4>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 護照、證件、訂房與機票憑證</li>
+<li><input type="checkbox"  disabled> 防寒全套 + 防滑鞋</li>
+<li><input type="checkbox"  disabled> 行動電源（手提）+ 充電線 + 轉接頭</li>
+<li><input type="checkbox"  disabled> 常備藥、OK 繃、暖暖包</li>
+<li><input type="checkbox"  disabled> 折疊旅行袋</li>
+<li><input type="checkbox"  disabled> 泳衣／浴衣內著（若泡溫泉需要）</li>
+</ul>
+<h4>回程行李分類</h4>
+<table><thead><tr>
+<th>託運 ✅</th><th>手提 ✅</th>
+</tr></thead><tbody>
+<tr><td>液體 &gt; 100ml、酒類</td><td>護照、登機證</td></tr>
+<tr><td>藥妝大包裝、伴手禮</td><td>行動電源</td></tr>
+<tr><td>沉重零食／米菓箱</td><td>錢包、手機、藥品</td></tr>
+</tbody></table>
+<hr>
+<h3>📱 實用 APP 清單</h3>
+<table><thead><tr>
+<th>APP</th><th>用途</th>
+</tr></thead><tbody>
+<tr><td>Google Maps</td><td>導航、離線地圖、位置分享</td></tr>
+<tr><td>Splitwise</td><td>公費記帳</td></tr>
+<tr><td>北海道公車／JR 相關</td><td>班次查詢（或 NAVITIME）</td></tr>
+<tr><td>GO</td><td>叫計程車</td></tr>
+<tr><td>Visit Japan Web</td><td>入境 QR Code</td></tr>
+<tr><td>虎航 APP</td><td>報到、航班異動</td></tr>
+<tr><td>Weathernews／Tenki</td><td>降雪與暴風雪警報</td></tr>
+</tbody></table>
+</section>
+<section id="day0">
+<h2>Day 0｜01/01 (五)｜去程落地函館、入住普樂美雅凱賓總統酒店</h2>
+<ul>
+<li><strong>清晨 桃園機場報到（IT236）：</strong></li>
+<li class="tip"><strong>建議到場：</strong> 起飛前約 <strong>2.5～3 小時</strong>抵達桃園 T1（虎航低成本航空常需人工／自助報到＋託運）。</li>
+<li><strong>航班參考：</strong> IT236 桃園 → 函館，約 <strong>06:45 起飛／11:10 抵達</strong>（以實際機票與當日公告為準）。</li>
+<li class="tip"><strong>領隊筆記：</strong> 出發前確認 VJW QR Code 已截圖；行動電源與鋰電池一律手提。</li>
+</ul>
+<ul>
+<li><strong>11:10 前後 函館機場 (HKD) 落地：</strong></li>
+<li><strong>入關：</strong> 出示護照 + VJW；冬季可能多班同時抵達，預留排隊時間。</li>
+<li><strong>領行李後：</strong> 前往觀光案內所可索取市區地圖；確認機場往函館駅／市區的巴士或計程車動線。</li>
+</ul>
+<ul>
+<li><strong>12:00～13:30 機場 → 市區飯店：</strong></li>
+<li><strong>交通選項：</strong></li>
+</ul>
+<p>  * <strong>機場巴士：</strong> 往函館駅前／市區飯店周邊（班次與票價以現場為準，IC 卡／現金）。</p>
+<p>  * <strong>計程車：</strong> 行李多或人多時較省事（可分兩台）。</p>
+<ul>
+<li><strong>目標：</strong> 抵達 <strong>普樂美雅凱賓總統酒店（Premier Hotel -CABIN- President）</strong>。</li>
+</ul>
+<ul>
+<li><strong>13:30～15:00 入住與休整：</strong></li>
+<li>若尚未開放 check-in，先寄放行李再去附近用餐／便利商店補給。</li>
+<li><strong>物資整理：</strong> 換上防寒衣、確認暖暖包與防滑鞋；設定離線地圖與飯店定位分享到群組。</li>
+</ul>
+<ul>
+<li><strong>15:00～18:00 輕行程適應（可選）：</strong></li>
+<li><strong>函館駅周邊／大門橫丁預備勘查</strong>，或先去便利商店、藥妝補口罩與暖暖包。</li>
+<li>長途飛行日建議 <strong>不要排滿</strong>，以恢復時差與體力為主。</li>
+</ul>
+<ul>
+<li><strong>18:30～20:30 晚餐：函館海鮮或塩ラーメン：</strong></li>
+<li><strong>推薦方向：</strong> 海鮮丼、活イカ、湯咖哩、函館塩ラーメン。</li>
+<li class="warning"><strong>備案：</strong> 大門橫丁、函館駅大樓餐廳街；人多可拆成兩桌或分流。</li>
+</ul>
+<ul>
+<li><strong>21:00 後 早休息：</strong></li>
+<li>隔天為函館一日遊，建議 22:30 前就寢。</li>
+<li>確認隔天集合時間、天氣與路面狀況。</li>
+</ul>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>冬季機場延誤：</strong> 北海道一月可能因雪影響起飛／降落，群組保持航班狀態同步；若延誤，飯店入住最晚時間先查訂房信。</p>
+<p>2. <strong>第一次刷 IC 卡：</strong> 落地後可在機場或駅為 Suica／Pasmo／Kitaca 加值，建議先存 ¥2,000～3,000。</p>
+<p>3. <strong>體力分級：</strong></p>
+<p>   * <strong>必做：</strong> 落地 → 飯店 → 晚餐 → 休息</p>
+<p>   * <strong>加分：</strong> 駅前散步、超商補給</p>
+<p>   * <strong>彈性：</strong> 夜景可留到 Day 1</p>
+<p>4. <strong>隔天早餐：</strong> 若要衝函館朝市，建議 07:30～08:00 前出發，海鮮丼店常有排隊。</p>
+</section>
+<section id="day1">
+<h2>Day 1｜01/02 (六)｜函館一日遊</h2>
+<p><em>住宿：普樂美雅凱賓總統酒店（函館）</em></p>
+<ul>
+<li><strong>08:00～09:30 【函館朝市】海鮮丼早餐：</strong></li>
+<li><strong>📍 地點：</strong> 函館朝市（函館駅步行約 5～10 分鐘）。</li>
+<li><strong>重點：</strong> 海鮮丼、立食い海鮮、烤海鮮；人多時可分流排隊。</li>
+<li class="warning"><strong>注意：</strong> 部分店家現金為主；吃完可買伴手禮（但生鮮不宜久放，優先常溫零食）。</li>
+</ul>
+<ul>
+<li><strong>09:45～12:00 【元町・金森倉庫・教堂街】漫步拍照：</strong></li>
+<li>搭路面電車或計程車前往元町坡道區。</li>
+<li><strong>看點：</strong> 元町教堂群、舊函館區公會堂（外觀／內部視開放）、金森紅磚倉庫雪景。</li>
+<li><strong>步行提醒：</strong> 坡道＋冰雪，務必穿防滑鞋，慢慢走。</li>
+</ul>
+<ul>
+<li><strong>12:15～13:30 午餐（元町／灣岸周邊）：</strong></li>
+<li>湯咖哩、海鮮、カフェ輕食皆可；保留體力給下午五稜郭與晚間夜景。</li>
+</ul>
+<ul>
+<li><strong>14:00～16:00 【五稜郭公園／五稜郭塔】：</strong></li>
+<li><strong>看點：</strong> 星形城跡雪景；可登塔俯瞰（門票另計，天候佳時值得）。</li>
+<li><strong>交通：</strong> 路面電車「五稜郭公園前」徒歩，或計程車直達。</li>
+</ul>
+<ul>
+<li><strong>16:30～18:00 回飯店短暫休整／早晚餐：</strong></li>
+<li>夜景建議抓日落後黃金時段；一月函館日落約 16:20～16:40 前後（以當日為準）。</li>
+<li>可先用早一點的晚餐，或夜景後再吃（依體力）。</li>
+</ul>
+<ul>
+<li><strong>18:30～20:30 【函館山夜景】（冬季經典）：</strong></li>
+<li><strong>交通：</strong> 纜車／登山巴士／計程車（雪天巴士或計程車較穩）。</li>
+<li><strong>重點：</strong> 「世界三大夜景」之一；山頂風大極冷，手套帽子必備，電池注意保溫。</li>
+<li><strong>人潮：</strong> 週末夜間可能排隊，預留購票與候車時間。</li>
+</ul>
+<ul>
+<li><strong>21:00 後 返回飯店：</strong></li>
+<li>確認明天退房時間與登別移動方式；把托運／大件行李先整理一輪。</li>
+</ul>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>路面電車一日票：</strong> 若當天多次搭乘，評估一日乘車券是否划算。</p>
+<p>2. <strong>天氣備案：</strong> 強風停駛纜車時，改在灣岸／元町拍夜景燈火，或提早回飯店泡湯／休息。</p>
+<p>3. <strong>隔天移動：</strong> Day 2 要退房前往登別，今晚先查 JR／巴士時刻與行李件數。</p>
+<p>4. <strong>拍照點：</strong> 元町坡道往下拍海灣、五稜郭塔展望、函館山展望台東南側通常人較少。</p>
+</section>
+<section id="day2">
+<h2>Day 2｜01/03 (日)｜函館退房 → 登別格蘭飯店</h2>
+<p><em>住宿：登別格蘭飯店（Noboribetsu Grand Hotel）</em></p>
+<ul>
+<li><strong>08:00～10:00 早餐＋退房：</strong></li>
+<li>於飯店或附近用畢早餐，完成 check-out。</li>
+<li><strong>行李：</strong> 確認貴重物品與暖暖包在隨身包；大件行李以好拖拉為原則（轉乘次數偏多）。</li>
+</ul>
+<ul>
+<li><strong>10:00～14:00 【移動日】函館 → 登別溫泉：</strong></li>
+<li class="tip"><strong>建議動線（常見）：</strong></li>
+</ul>
+<p>  1. 函館駅搭 <strong>JR 特急／快速</strong> 往札幌方向</p>
+<p>  2. 於 <strong>登別駅</strong> 下車</p>
+<p>  3. 轉乘 <strong>登別溫泉巴士</strong> 或計程車至 <strong>登別格蘭飯店</strong></p>
+<ul>
+<li><strong>時間：</strong> 車程視班次約 2～3.5 小時＋接駁；請以當日 JR 時刻表為準，預留轉乘緩衝。</li>
+<li><strong>午餐：</strong> 可在函館駅構內解決，或於登別駅／溫泉街再吃。</li>
+</ul>
+<ul>
+<li><strong>14:00～15:30 入住登別格蘭飯店：</strong></li>
+<li>辦理入住、確認餐食方案（一泊二食／一泊一食）與風呂開放時間。</li>
+<li>房間放行李後，先搞清楚大浴場動線與館內設施。</li>
+</ul>
+<ul>
+<li><strong>15:30～17:30 【地獄谷】散步（天候允許）：</strong></li>
+<li><strong>📍 地點：</strong> 登別地獄谷（飯店周邊步行可達，實際距離依館址）。</li>
+<li><strong>看點：</strong> 硫磺蒸氣、雪中地獄谷；步道可能結冰，短程散步即可。</li>
+<li class="warning"><strong>注意：</strong> 氣味刺激，呼吸道敏感者戴口罩；勿跨越護欄。</li>
+</ul>
+<ul>
+<li><strong>17:30～19:30 溫泉＋晚餐：</strong></li>
+<li>先泡湯再用餐，或依館方時段安排。</li>
+<li><strong>溫泉禮儀：</strong> 先沖洗再入湯、毛巾不下水、安靜交談。</li>
+<li>晚餐若為飯店會席／自助，盡量準時，避免尖峰。</li>
+</ul>
+<ul>
+<li><strong>21:00 後 早休息：</strong></li>
+<li>隔天退房轉往札幌，行程較滿（Day 3 下午已排北大與白色戀人），建議早睡。</li>
+</ul>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>JR 指定席：</strong> 假日／年初人多，可考慮指定席較穩；IC 卡無法直接搭特急全額，留意特急券。</p>
+<p>2. <strong>巴士末班：</strong> 登別駅→溫泉的巴士非 24 小時，誤點時改計程車。</p>
+<p>3. <strong>備案：</strong> 若 JR 因大雪停駛，改高速巴士或調整入住時間並通知飯店。</p>
+<p>4. <strong>隔天出發：</strong> 目標午後抵達札幌中島公園普樂美雅，早上勿拖太晚退房。</p>
+</section>
+<section id="day3">
+<h2>Day 3｜01/04 (一)｜登別退房 → 札幌入住 → 北大／白色戀人／狸小路</h2>
+<p><em>住宿：札幌中島公園普樂美雅酒店（Premier Hotel Nakajima Park Sapporo）</em></p>
+<ul>
+<li><strong>上午 登別退房 → 移動札幌：</strong></li>
+<li>完成 check-out，搭巴士至登別駅，轉 JR 前往札幌。</li>
+<li><strong>目標：</strong> 下午 14:00 前抵達 <strong>札幌中島公園普樂美雅酒店</strong> 辦理入住。</li>
+<li>車上可休息、補充水分；預留大雪延誤緩衝。</li>
+</ul>
+<ul>
+<li><strong>14:00 – 14:30 完成入住、稍作整理並穿戴好防寒衣物</strong></li>
+<li><strong>📍 飯店：</strong> Premier Hotel Nakajima Park Sapporo（札幌中島公園普樂美雅酒店）</li>
+<li>放行李、換防滑鞋與厚外套；確認 IC 卡餘額。</li>
+</ul>
+<ul>
+<li><strong>14:40 – 16:10 【北海道大學】校園雪景漫步與古蹟建築拍照</strong></li>
+<li><strong>交通：</strong> 飯店 → 札幌駅周邊 → 步入北大校園（以 Google Maps 步行／地下鐵為準）。</li>
+<li><strong>看點：</strong> 雪景校園、古蹟建築、主街道構圖；寒冷時段勿待太久，定點拍照即可。</li>
+<li class="warning"><strong>注意：</strong> 部分區域可能為上課／管制，遵守標示。</li>
+</ul>
+<ul>
+<li><strong>16:30 – 18:00 【白色戀人公園】歐式雪白城堡與冬季限定夢幻光雕燈飾</strong></li>
+<li><strong>交通：</strong> 自北大一帶搭地鐵／公車／計程車前往（預留塞車與購票時間）。</li>
+<li><strong>看點：</strong> 歐風城堡建築、冬季光雕燈飾；可購買白色戀人伴手禮（留意保質期與託運）。</li>
+<li><strong>門票：</strong> 現場或官網資訊為準；人多時先分流購票。</li>
+</ul>
+<ul>
+<li><strong>18:30 – 20:30 【晚餐】湯咖哩或成吉思汗烤肉</strong></li>
+<li><strong>推薦方向：</strong> 熱騰騰湯咖哩（蘇拉／蝦夷等名店視排隊）、成吉思汗烤羊肉。</li>
+<li><strong>團體：</strong> 6～8 人建議提前訂位或接受分流兩桌。</li>
+</ul>
+<ul>
+<li><strong>20:30 – 22:00 【狸小路商店街】全天候拱廊避雪採買與藥妝補貨，隨後返回飯店</strong></li>
+<li>拱廊街可避雪，適合藥妝、零食、日常補給。</li>
+<li>結束後步行／短程交通返回中島公園飯店。</li>
+</ul>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>今日節奏：</strong> 上午移動＋下午三點行程，密度偏高；白色戀人若排隊過長，可縮短北大停留。</p>
+<p>2. <strong>光雕時段：</strong> 冬季燈飾多在午後至晚間最美，16:30 進場時間合理。</p>
+<p>3. <strong>隔天小樽：</strong> Day 4 需早起搭 JR，今晚先查札幌→小樽快速列車時刻，並確認三角市場營業。</p>
+<p>4. <strong>伴手禮策略：</strong> 白色戀人可今日先買一部分；易碎／巧克力注意保溫袋。</p>
+</section>
+<section id="day4">
+<h2>Day 4｜01/05 (二)｜小樽一日遊</h2>
+<p><em>住宿：札幌中島公園普樂美雅酒店</em></p>
+<ul>
+<li><strong>08:00 – 08:45 札幌駅搭乘 JR 快速列車抵達小樽駅</strong></li>
+<li>建議 07:40 前離開飯店，預留購票／刷卡進站時間。</li>
+<li>車程約 30～40 分鐘（依車種）；坐錯慢車會拉長移動時間。</li>
+</ul>
+<ul>
+<li><strong>09:00 – 10:15 【三角市場】吃海鮮丼早餐</strong></li>
+<li>知名海鮮丼、海鮮燒烤；開門後即可能排隊，可分流佔位。</li>
+<li>吃完再買少量伴手禮，避免提著大包跑整天。</li>
+</ul>
+<ul>
+<li><strong>10:20 – 10:30 步行至 JR 小樽駅外的公車總站</strong></li>
+</ul>
+<ul>
+<li><strong>10:40 – 11:05 搭乘北海道中央巴士前往小樽水族館</strong></li>
+<li>確認月台與「水族館」方向班次；IC 卡可刷。</li>
+</ul>
+<ul>
+<li><strong>11:10 – 13:00 【小樽水族館】觀賞 11:30 企鵝雪地散步 &amp; 室內展館</strong></li>
+<li><strong>必看：</strong> <strong>11:30 企鵝雪地散步</strong>（時間若有異動以園方當日公告為準）。</li>
+<li>其餘時間逛室內館、海獸表演時程看板。</li>
+<li>戶外區風大，手套帽子備妥。</li>
+</ul>
+<ul>
+<li><strong>13:10 – 13:35 搭乘公車返回小樽市區</strong></li>
+<li>於「小樽運河ターミナル」或「小樽駅」下車。</li>
+</ul>
+<ul>
+<li><strong>13:40 – 14:40 【堺町通／音樂盒堂】1 小時快速補貨採買</strong></li>
+<li>音樂盒、玻璃細工、菓子店快閃；嚴控時間，14:40 前收隊。</li>
+</ul>
+<ul>
+<li><strong>15:00 – 15:15 抵達小樽運河遊船售票處辦理報到（需提前 15 分鐘）</strong></li>
+<li>現場確認班次是否因風浪／結冰影響；有狀況立即啟用備案（運河散步＋拍照）。</li>
+</ul>
+<ul>
+<li><strong>15:30 – 16:10 【小樽運河遊覽船】日間搭乘（恰逢藍調與黃昏點燈交界）</strong></li>
+<li>船上風超大，圍巾口罩護鏡有幫助；手機電池注意保溫。</li>
+</ul>
+<ul>
+<li><strong>16:20 – 17:00 運河周邊拍照、出拔小路漫步</strong></li>
+<li>燈飾與石造倉庫夜景過渡時段；路面濕滑慢行。</li>
+</ul>
+<ul>
+<li><strong>17:30 – 19:30 搭公車／計程車前往天狗山纜車觀賞夜景</strong></li>
+<li>先確認纜車營業與末班車；雪天計程車較穩但較貴，可共乘。</li>
+<li>山頂極冷，停留以拍照＋短暫觀景為主。</li>
+</ul>
+<ul>
+<li><strong>20:00 – 21:30 晚餐（成吉思汗烤肉或燒肉）</strong></li>
+<li>可在小樽市區或視時間提早回札幌再吃（二擇一，避免兩頭趕）。</li>
+</ul>
+<ul>
+<li><strong>21:30 – 22:15 搭乘 JR 返回札幌</strong></li>
+<li>留意末班車；回到中島公園飯店後補水、充電、整鞋。</li>
+</ul>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>時間極度緊湊：</strong> 水族館→運河遊船→天狗山是一條鞭，任何一段排隊超時就砍「堺町通」或縮短天狗山。</p>
+<p>2. <strong>企鵝散步：</strong> 11:30 為行程錨點，公車務必準時到。</p>
+<p>3. <strong>遊船備案：</strong> 停航則改運河兩岸散步＋倉庫燈光攝影，時間轉移給天狗山或提早晚餐。</p>
+<p>4. <strong>團體移動：</strong> 6 人以上建議指定「殿後」與「車長」，每個轉乘點報人數。</p>
+<p>5. <strong>IC 卡：</strong> 中央巴士與 JR（普通／快速）多可刷；特急另購票。</p>
+</section>
+<section id="day5">
+<h2>Day 5｜01/06 (三)｜待規劃（札幌彈性日）</h2>
+<p><em>住宿：札幌中島公園普樂美雅酒店</em></p>
+<blockquote>本日細節尚未定案。以下提供方向草案，方便之後填入確定版。</blockquote>
+<hr>
+<h3>可能方向（擇一或分流）</h3>
+<h4>A. 市區輕鬆日</h4>
+<ul>
+<li>大通公園雪景散步、札幌電視塔、時計台外觀</li>
+<li>北海道廳舊本廳舍（紅磚廳舍）拍照</li>
+<li>午後狸小路／札幌駅地下街採買</li>
+<li>晚餐湯咖哩／海鮮／居酒屋</li>
+</ul>
+<h4>B. 部分人滑雪／雪場日</h4>
+<ul>
+<li>與 Day 6 晚上「滑雪結束返回的 2 位年輕人」銜接：可把雪場安排在本日或 Day 6 白天</li>
+<li>其餘人留在札幌市區自由活動，晚上或隔日會合</li>
+</ul>
+<h4>C. 近郊加點</h4>
+<ul>
+<li>定山溪溫泉半日（泡湯＋風景）</li>
+<li>或札幌景點補完（白色戀人若 Day 3 沒去成可補）</li>
+</ul>
+<hr>
+<h3>待確認清單</h3>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 本日主軸：市區／雪場／近郊？</li>
+<li><input type="checkbox"  disabled> 是否需要預約雪具、巴士或餐廳？</li>
+<li><input type="checkbox"  disabled> 與 Day 6、Day 7 的體力分配是否合理？</li>
+<li><input type="checkbox"  disabled> 伴手禮採買要集中在本日還是 Day 7？</li>
+</ul>
+<hr>
+<h3>時間軸（空白模板）</h3>
+<pre><code>08:30  早餐
+10:00  （待填）
+12:30  午餐
+14:00  （待填）
+18:30  晚餐
+21:00  返回飯店</code></pre>
+</section>
+<section id="day6">
+<h2>Day 6｜01/07 (四)｜北海道神宮 → 頭大佛 → 瀧野冰雪世界 → 大通公園 → 8 人晚餐</h2>
+<p><em>住宿：札幌中島公園普樂美雅酒店</em></p>
+<hr>
+<h3>第一站：北海道神宮參拜與神宮茶屋｜08:30 – 10:15</h3>
+<h4>交通：飯店 ➔ 北海道神宮｜08:30 – 08:50</h4>
+<ul>
+<li>搭乘地下鐵東西線至 <strong>「圓山公園站（T06）」</strong>。</li>
+<li>出站後從 <strong>3 號出口</strong> 步行約 15 分鐘，穿過圓山公園進入北海道神宮。</li>
+</ul>
+<h4>景點體驗｜08:50 – 10:15</h4>
+<ul>
+<li>雪中參道漫步、參拜祈福、選購御守。</li>
+<li>至 <strong>神宮茶屋</strong> 品嚐現烤限定甜點「判官樣」紅豆餅與熱茶。</li>
+</ul>
+<hr>
+<h3>第二站：移動至頭大佛殿｜10:15 – 11:30</h3>
+<h4>交通：神宮 ➔ 地下鐵真駒內站｜10:15 – 10:35</h4>
+<ul>
+<li>步行返回地下鐵 <strong>圓山公園站</strong>，搭乘東西線至 <strong>大通站</strong>（約 6 分鐘）。</li>
+<li>於大通站轉乘南北線（往真駒內方向），搭至終點站 <strong>真駒內站（N15）</strong>（約 17 分鐘）。</li>
+</ul>
+<h4>交通：真駒內站 ➔ 頭大佛殿｜10:45 – 11:15</h4>
+<ul>
+<li><strong>公車：</strong> 真駒內站前公車轉運站 <strong>2 號月台</strong>，北海道中央巴士 <strong>［真102］瀧野線</strong>。</li>
+<li class="tip"><strong>建議班次：</strong> 10:45 或 11:15 發車（車程約 22 分鐘，單程約 ¥380，可刷 IC）。</li>
+<li><strong>下車站：</strong> 「頭大佛前」。</li>
+<li class="warning"><strong>備案（6 人）：</strong> 不想等公車可於真駒內站搭 <strong>2 台計程車</strong> 直達，約 15 分鐘，車資約 <strong>¥2,800／台</strong>。</li>
+</ul>
+<hr>
+<h3>第三站：頭大佛殿（真駒內瀧野靈園）｜11:15 – 12:45</h3>
+<ul>
+<li>欣賞安藤忠雄設計的雪中水池隧道與天井落雪大佛。</li>
+<li>走訪園區外圍白雪覆蓋的 1:1 摩艾石像群與巨石陣，拍攝視覺震撼照片。</li>
+<li class="warning"><strong>注意：</strong> 戶外區域風大路滑；保持肅靜，尊重靈園環境。</li>
+</ul>
+<hr>
+<h3>第四站：午餐 &amp; 瀧野冰雪世界｜12:45 – 16:30</h3>
+<h4>交通：頭大佛殿 ➔ 瀧野鈴蘭公園｜12:45 – 13:00</h4>
+<ul>
+<li>於「頭大佛前」搭 ［真102］ <strong>1 站</strong>（約 5 分鐘）至 <strong>「鈴蘭公園東口（すずらん公園東口）」</strong>。</li>
+</ul>
+<h4>午餐｜13:00 – 14:00</h4>
+<ul>
+<li>於瀧野公園東口綜合案內所內餐廳或休憩所：味噌拉麵、咖哩飯或熱湯。</li>
+</ul>
+<h4>景點：瀧野冰雪世界｜14:00 – 16:30</h4>
+<ul>
+<li>體驗全日本最大規模約 <strong>200 公尺雪上飛碟（滑圈）</strong>；免費租借滑圈，需付公車／停車相關費用。</li>
+<li>園區亦有雪地步道與室內溫暖休憩區。</li>
+<li><strong>裝備：</strong> 手套必備（手直接碰雪會濕冷），褲子建議防水。</li>
+</ul>
+<hr>
+<h3>第五站：返回市區與大通公園燈飾｜16:30 – 18:00</h3>
+<h4>交通：瀧野公園 ➔ 真駒內站｜16:40 – 17:15</h4>
+<ul>
+<li>於「鈴蘭公園東口」搭 ［真102］回程至 <strong>真駒內站</strong>（班次約 16:40，車程約 30 分鐘）。</li>
+</ul>
+<h4>交通 &amp; 景點：真駒內站 ➔ 大通公園／電視塔｜17:15 – 18:00</h4>
+<ul>
+<li>地下鐵南北線至 <strong>大通站</strong>（約 17 分鐘）。</li>
+<li>出站至大通公園漫步，欣賞夕陽餘暉與點亮燈光的札幌電視塔及雪景。</li>
+</ul>
+<hr>
+<h3>第六站：8 人全員會合晚餐｜18:30 – 21:00</h3>
+<ul>
+<li><strong>18:30 會合：</strong> 與滑雪結束返回市區的 2 位年輕人，於 <strong>薄野（Susukino）</strong> 或 <strong>大通</strong> 周邊餐廳會合。</li>
+<li><strong>晚餐推薦：</strong> 成吉思汗烤羊肉（如達摩、札幌啤酒園等）或豪華日式燒肉／湯咖哩。</li>
+<li><strong>務必提前訂位</strong>（8 人年節前後一位難求）。</li>
+</ul>
+<hr>
+<h3>💡 6 人團體交通實用建議</h3>
+<ul>
+<li><strong>IC 卡：</strong> 地下鐵與中央巴士均可使用 Suica、Pasmo 或 Kitaca；建議每人卡內預先加值 <strong>¥2,000 以上</strong>，省去現場排隊購票。</li>
+<li><strong>班次容錯：</strong> ［真102］非高頻，誤點就改計程車備案，不要空等超過一班太多。</li>
+<li><strong>體力：</strong> 頭大佛＋飛碟半日偏耗體力，晚餐會合前可在大通短暫坐咖啡廳暖身。</li>
+<li><strong>隔天：</strong> Day 7 仍待規劃，今晚可順便決定採買日或休息日。</li>
+</ul>
+</section>
+<section id="day7">
+<h2>Day 7｜01/08 (五)｜待規劃（札幌自由／採買日）</h2>
+<p><em>住宿：札幌中島公園普樂美雅酒店（最後一晚）</em></p>
+<blockquote>本日細節尚未定案。建議作為回程前的彈性日：補買伴手禮、補拍景點、或整日休息。</blockquote>
+<hr>
+<h3>可能方向（擇一或分流）</h3>
+<h4>A. 伴手禮＆藥妝採買日（推薦）</h4>
+<ul>
+<li>狸小路、札幌駅 Stellar Place／ESTA、AEON 等</li>
+<li>ROYCE、白色戀人、薯條三兄弟、牛奶布丁等定番</li>
+<li>預留時間回飯店 <strong>重新分裝託運／手提</strong>（液體、酒類規則）</li>
+</ul>
+<h4>B. 市區補完景點</h4>
+<ul>
+<li>大通公園、電視塔、時計台、北海道廳舊本廳舍</li>
+<li>札幌啤酒園（若 Day 6 晚餐沒去）</li>
+<li>薄野夜間再訪（視體力）</li>
+</ul>
+<h4>C. 完全休養日</h4>
+<ul>
+<li>晚起、飯店周邊散步、提早整理行李</li>
+<li>為隔天清晨前往新千歲預留精神</li>
+</ul>
+<hr>
+<h3>回程前必做</h3>
+<ul class="checklist">
+<li><input type="checkbox"  disabled> 確認 IT235 報到時間與行李額度</li>
+<li><input type="checkbox"  disabled> 整理伴手禮：液體／酒類進託運；電池類進手提</li>
+<li><input type="checkbox"  disabled> 查隔天札幌 → 新千歲交通（JR 快速機場號／巴士）時刻</li>
+<li><input type="checkbox"  disabled> 飯店 checkout 時間與寄放行李規則</li>
+<li><input type="checkbox"  disabled> IC 卡餘額：夠支付機場交通即可，不必過度加值</li>
+</ul>
+<hr>
+<h3>時間軸（空白模板）</h3>
+<pre><code>09:00  早餐（晚起可）
+10:30  （待填：採買／景點／休息）
+12:30  午餐
+14:30  （待填）
+18:30  晚餐（最後一頓札幌）
+21:00  回飯店最終打包</code></pre>
+</section>
+<section id="day8">
+<h2>Day 8｜01/09 (六)｜退房 → 新千歲 → IT235 回程</h2>
+<ul>
+<li><strong>07:00～08:30 起床、早餐、最終打包：</strong></li>
+<li>再次檢查：護照、登機相關、行動電源（手提）、伴手禮分裝。</li>
+<li>完成飯店 checkout（時間以飯店為準）。</li>
+</ul>
+<ul>
+<li><strong>08:30～10:00 札幌 → 新千歲機場 (CTS)：</strong></li>
+<li class="tip"><strong>建議交通：</strong></li>
+</ul>
+<p>  * <strong>JR 快速「機場號」：</strong> 札幌駅 → 新千歲空港駅（約 37 分鐘），穩妥首選。</p>
+<p>  * <strong>機場巴士：</strong> 依上車處班次，塞車時可能較久。</p>
+<ul>
+<li><strong>目標：</strong> 起飛前 <strong>2.5～3 小時</strong>抵達機場國際線（IT235 參考起飛約 <strong>11:55</strong>）。</li>
+</ul>
+<ul>
+<li><strong>10:00～11:30 報到、託運、安檢、出境：</strong></li>
+<li>虎航報到櫃檯／自助 kiosk；超重提前處理。</li>
+<li>免稅店可補最後伴手禮（注意液體與密封規定）。</li>
+</ul>
+<ul>
+<li><strong>航班 IT235：</strong></li>
+<li><strong>路線：</strong> 新千歲 CTS → 桃園 TPE</li>
+<li><strong>參考時刻：</strong> 約 <strong>11:55 起飛／15:35 抵達</strong>（以實際機票為準）</li>
+<li>登機門前預留緩衝；冬季可能除雪延誤，關注機場廣播與 APP。</li>
+</ul>
+<ul>
+<li><strong>抵達桃園後：</strong></li>
+<li>入境、領行李、群組報平安。</li>
+<li>一週內可用 Splitwise 完成公費結算。</li>
+</ul>
+<hr>
+<h3>今日時間軸總覽（參考）</h3>
+<pre><code>07:00  起床、最終打包
+07:30  早餐
+08:15  飯店退房出發
+08:40  札幌駅搭 JR 機場號（班次依當日）
+09:20  抵達新千歲
+09:30  報到＋掛行李
+10:15  安檢＋出境
+11:00  免稅／用餐
+11:30  登機門集合
+11:55  起飛 ✈️
+15:35  桃園抵達（參考）</code></pre>
+<hr>
+<h3>💡 深度細節補充</h3>
+<p>1. <strong>大雪備案：</strong> 若早班 JR 停駛，改機場巴士或提早前一晚住機場飯店（重大天候才需）；出發前晚看運行情報。</p>
+<p>2. <strong>託運複檢：</strong> 暖暖包、刮鬍刀、酒、藥妝容量；行動電源絕對手提。</p>
+<p>3. <strong>IC 卡：</strong> 用完可留著下次用，或於空港／駅辦理退卡（可能有手續費）。</p>
+<p>4. <strong>感謝與相簿：</strong> 回國後建立共享相簿、結算公費，收尾完整。</p>
+</section>
+</div>
+</body>
+</html>
