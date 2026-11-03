@@ -1,0 +1,10 @@
+---
+description: 行程修改時只動 Day 檔，勿自動重產總覽網頁
+alwaysApply: true
+---
+
+# 行程檔案編輯規則
+
+- 更新行程時，**只修改對應的 `Day*.md`**（必要時才改其他單一內容檔）。
+- **不要**每次自動重產或同步更新 `index.md`、`index.html`。
+- 只有在使用者**明確要求**更新總覽、重建 HTML、或部署／同步 demo 網頁時，才動 `index.md` / `index.html`。
