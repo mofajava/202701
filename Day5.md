@@ -26,6 +26,7 @@
 
 * **08:00～08:45 JR 札幌 → 小樽**
 * 07:40 前離開飯店。車程約 30～40 分鐘，不要坐錯慢車。
+* **地圖：** [札幌駅 → 小樽駅](https://www.google.com/maps/dir/?api=1&origin=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&destination=JR%E5%B0%8F%E6%A8%BD%E9%A7%85&travelmode=transit)
 
 * **09:00～10:15 【三角市場】海鮮丼**
 * 開門後可能排隊，可分流佔位。
@@ -34,6 +35,7 @@
 * **10:20～11:05 轉乘小樽水族館**
 * 10:20 步行到小樽駅外公車站。
 * 10:40～11:05 北海道中央巴士，確認「水族館」方向。IC 卡可刷。
+* **地圖：** [小樽駅 → 水族館](https://www.google.com/maps/dir/?api=1&origin=JR%E5%B0%8F%E6%A8%BD%E9%A7%85&destination=%E3%81%8A%E3%81%9F%E3%82%8B%E6%B0%B4%E6%97%8F%E9%A4%A8&travelmode=transit)
 
 * **11:10～13:00 【小樽水族館】**
 * **必看：** **11:30 企鵝雪地散步**（以園方當日公告為準）。
@@ -41,6 +43,7 @@
 
 * **13:10～13:35 巴士回市區**
 * 在「小樽運河ターミナル」或「小樽駅」下車。
+* **地圖：** [水族館 → 小樽運河](https://www.google.com/maps/dir/?api=1&origin=%E3%81%8A%E3%81%9F%E3%82%8B%E6%B0%B4%E6%97%8F%E9%A4%A8&destination=%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3&travelmode=transit)
 
 * **13:40～14:40 【堺町通／音樂盒堂】**
 * 音樂盒、玻璃、菓子。14:40 前收隊。
@@ -55,6 +58,7 @@
 
 * **17:30～19:30 【天狗山】夜景**
 * 公車或計程車到纜車。先確認營業與末班。雪天計程車較穩，可共乘。
+* **地圖：** [運河 → 天狗山纜車](https://www.google.com/maps/dir/?api=1&origin=%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3&destination=%E5%B0%8F%E6%A8%BD%E5%A4%A9%E7%8B%97%E5%B1%B1%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4&travelmode=transit)
 * 山頂極冷，拍照後就下山。
 
 * **20:00～21:30 晚餐**
@@ -62,6 +66,7 @@
 
 * **21:30～22:15 JR 回札幌**
 * 留意末班車。回飯店後補水、充電、整鞋。
+* **地圖：** [小樽駅 → 札幌駅](https://www.google.com/maps/dir/?api=1&origin=JR%E5%B0%8F%E6%A8%BD%E9%A7%85&destination=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&travelmode=transit)｜[札幌駅 → 飯店](https://www.google.com/maps/dir/?api=1&origin=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&destination=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C&travelmode=transit)
 
 ## 補充
 

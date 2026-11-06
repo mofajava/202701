@@ -28,6 +28,7 @@
 
 * **08:30～10:00 札幌 → 新千歲**
 * **首選：** JR 快速機場號，札幌駅 → 新千歲空港駅，約 37 分鐘。
+* **地圖：** [飯店 → 札幌駅](https://www.google.com/maps/dir/?api=1&origin=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C&destination=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&travelmode=transit)｜[札幌駅 → 新千歲機場](https://www.google.com/maps/dir/?api=1&origin=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&destination=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF&travelmode=transit)
 * **備案：** 機場巴士。塞車時較久。
 * 目標起飛前 **2.5～3 小時**到國際線。IT235 參考起飛 **11:55**。
 

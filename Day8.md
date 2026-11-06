@@ -19,6 +19,7 @@
 
 * **09:00～09:30 飯店 → 場外市場**
 * **交通：** 南北線中島公園到大通，轉東西線到**二十四軒站**，5 號出口步行約 8 分鐘。
+* **地圖：** [飯店 → うめぇ堂](https://www.google.com/maps/dir/?api=1&origin=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C&destination=%E3%81%86%E3%82%81%E3%81%87%E5%A0%82+%E6%9C%AD%E5%B9%8C%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4&travelmode=transit)｜[二十四軒 → 狸小路](https://www.google.com/maps/dir/?api=1&origin=%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%BB%92%E9%A7%85&destination=%E7%8B%B8%E5%B0%8F%E8%B7%AF%E5%95%86%E5%BA%97%E8%A1%97&travelmode=transit)
 * **うめぇ堂：** 札幌市中央區北11條西22丁目1-26，場外市場內橘色帳篷。根室杉山水產直營。
 
 * **09:30～11:30 【うめぇ堂】帝王蟹・毛蟹**

@@ -37,10 +37,12 @@
 * **費用：** ¥1,000／席（含稅），單程，抵達札幌時**現金**付。
 * **取消：** 前一天 40%／當日出發前 50%／出發後或未到 100%。
 * 行李用一台計程車送到飯店寄放，人到札幌駅等另外 6 人。
+* **地圖：** [登別飯店 → 加森ビル](https://www.google.com/maps/dir/?api=1&origin=%E7%99%BB%E5%88%A5%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB&destination=%E6%9C%AD%E5%B9%8C+%E5%8A%A0%E6%A3%AE%E3%83%93%E3%83%AB&travelmode=driving)｜[加森ビル → 中島公園飯店](https://www.google.com/maps/dir/?api=1&origin=%E6%9C%AD%E5%B9%8C+%E5%8A%A0%E6%A3%AE%E3%83%93%E3%83%AB&destination=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C&travelmode=driving)
 
 * **10:55 前後 其餘 6 人：IT234 落地新千歲**
 * **航班參考：** 桃園 T1 → 新千歲，約 **06:20 起飛／10:55 抵達**。2026 年 11 月這班曾是夜間飛、凌晨到，2027 年 1 月以機票上的時刻為準。
 * 入境、領行李後搭 **JR 快速機場號**到札幌駅，約 37 分鐘。
+* **地圖：** [新千歲機場 → 札幌駅](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF&destination=JR%E6%9C%AD%E5%B9%8C%E9%A7%85&travelmode=transit)
 * **會合：** 約 **13:00～13:30** 札幌駅。先行 2 人若巴士延誤，改約飯店大廳。
 
 * **14:00～14:30 八人入住**
@@ -49,10 +51,12 @@
 
 * **14:40～16:10 【北海道大學】**
 * **交通：** 飯店到札幌駅一帶，再步行進校園。
+* **地圖：** [飯店 → 北海道大學](https://www.google.com/maps/dir/?api=1&origin=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C&destination=%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6&travelmode=transit)
 * 雪景、古蹟建築，定點拍照即可，不要待太久。遵守管制標示。
 
 * **16:30～18:00 【白色戀人公園】**
 * **交通：** 自北大搭地鐵、公車或計程車，預留購票時間。
+* **地圖：** [北大 → 白色戀人公園](https://www.google.com/maps/dir/?api=1&origin=%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6&destination=%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF&travelmode=transit)｜[白色戀人公園 → 狸小路](https://www.google.com/maps/dir/?api=1&origin=%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF&destination=%E7%8B%B8%E5%B0%8F%E8%B7%AF%E5%95%86%E5%BA%97%E8%A1%97&travelmode=transit)
 * 歐風城堡與冬季光雕。伴手禮注意保質期與託運。
 * 門票以現場或官網為準。人多先分流購票。
 

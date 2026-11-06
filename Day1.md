@@ -31,6 +31,7 @@
 
 * **12:00～13:30 機場 → 飯店**
 * **交通：** 兩人一台計程車，或機場巴士往函館駅前。
+* **地圖：** [機場 → 飯店（計程車）](https://www.google.com/maps/dir/?api=1&origin=%E5%87%BD%E9%A4%A8%E7%A9%BA%E6%B8%AF&destination=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB-CABIN-PRESIDENT-%E5%87%BD%E9%A4%A8&travelmode=driving)｜[機場 → 函館駅（巴士）](https://www.google.com/maps/dir/?api=1&origin=%E5%87%BD%E9%A4%A8%E7%A9%BA%E6%B8%AF&destination=JR%E5%87%BD%E9%A4%A8%E9%A7%85&travelmode=transit)
 * **住宿：** 普樂美雅凱賓總統酒店（Premier Hotel -CABIN- President），函館駅步行約 1 分鐘。
 
 * **13:30～16:00 入住與休整**
@@ -40,12 +41,14 @@
 * **16:00～17:00 【初詣】函館八幡宮**
 * **地點：** 函館市谷地頭町 2-5（函館山山麓）。
 * **交通：** 路面電車「谷地頭」徒歩，或計程車。
+* **地圖：** [飯店 → 八幡宮](https://www.google.com/maps/dir/?api=1&origin=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%9B%E3%83%86%E3%83%AB-CABIN-PRESIDENT-%E5%87%BD%E9%A4%A8&destination=%E5%87%BD%E9%A4%A8%E5%85%AB%E5%B9%A1%E5%AE%AE&travelmode=transit)
 * **做法：** 參拜、御守即可，**控制在 1 小時內**。結束直接去纜車站，不必先回飯店。
 * **備案：** 航班延誤或太累，改 Day 2 上午（三が日內仍可）。
 
 * **17:15～19:15 【函館山夜景】第一次**
 * 一月日落約 **16:20**，夜景約 **17:15** 之後成形。山腳先看山頭：晴就上；整座山在霧裡就不要買票。
 * **交通：** 一月只有纜車。登山道冬季封閉，公車、計程車都上不了山頂。八幡宮走過去就是山麓駅。
+* **地圖：** [八幡宮 → 山麓駅（步行）](https://www.google.com/maps/dir/?api=1&origin=%E5%87%BD%E9%A4%A8%E5%85%AB%E5%B9%A1%E5%AE%AE&destination=%E5%87%BD%E9%A4%A8%E5%B1%B1%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%E5%B1%B1%E9%BA%93%E9%A7%85&travelmode=walking)｜[山麓駅 → 駅前長谷川](https://www.google.com/maps/dir/?api=1&origin=%E5%87%BD%E9%A4%A8%E5%B1%B1%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%E5%B1%B1%E9%BA%93%E9%A7%85&destination=%E3%83%8F%E3%82%BB%E3%82%AC%E3%83%AF%E3%82%B9%E3%83%88%E3%82%A2+%E5%87%BD%E9%A4%A8%E9%A7%85%E5%89%8D%E5%BA%97&travelmode=transit)
 * **纜車：** 往復大人約 ¥1,800；上り最終約 **20:30**、下り約 **21:00**（以當日為準）。強風會停駛。
 * 山頂只拍照就下山。手套、帽子、行動電源放內袋。
 
